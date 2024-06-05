@@ -1,15 +1,15 @@
 .navbar-toggler {
-    color: #D6DAC8;
+    color: #BBC3A4;
 }
 
 .btn-outline-success {
-    background-color: #D6DAC8;
+    background-color: #BBC3A4;
     color: #FBF3D5;
-    border-color: #D6DAC8;
+    border-color: #BBC3A4;
 }
 
 .btn-outline-success:hover {
-    background-color: #9CAFAA;
+    background-color: #B3A398;
     color: white;
-    border-color: #9CAFAA;
+    border-color: #B3A398;
 }
