@@ -11,93 +11,92 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Today's look</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CATEGORY</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">로그인</a>
-                            <a class="nav-link active" aria-current="page" href="#">회원가입</a>
-                            <a class="nav-link active" aria-current="page" href="#">마이페이지</a>                           
-                        </li>                       
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                OUTER
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">가디건</a></li>
-                                <li><a class="dropdown-item" href="#">코트&자켓</a></li>
-                                <li><a class="dropdown-item" href="#">점퍼</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                TOP 
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">니트</a></li>
-                                <li><a class="dropdown-item" href="#">긴팔T</a></li>
-                                <li><a class="dropdown-item" href="#">반팔T</a></li>
-                                <li><a class="dropdown-item" href="#">맨투맨&후드</a></li>
-                                <li><a class="dropdown-item" href="#">셔츠&블라우스</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                PANTS 
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">청바지</a></li>
-                                <li><a class="dropdown-item" href="#">슬랙스</a></li>
-                                <li><a class="dropdown-item" href="#">반바지</a></li>
-                                <li><a class="dropdown-item" href="#">트레이닝팬츠</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                SKIRT
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">원피스</a></li>
-                                <li><a class="dropdown-item" href="#">미니SK</a></li>
-                                <li><a class="dropdown-item" href="#">미디&롱SK</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                ACC
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">가방</a></li>
-                                <li><a class="dropdown-item" href="#">벨트</a></li>
-                                <li><a class="dropdown-item" href="#">모자</a></li>
-                                <li><a class="dropdown-item" href="#">악세사리</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+    <!-- header -->
+    <header>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Today's look</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CATEGORY</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">로그인</a>
+                                <a class="nav-link active" aria-current="page" href="#">회원가입</a>
+                                <a class="nav-link active" aria-current="page" href="#">마이페이지</a>                           
+                            </li>                       
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    OUTER
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">가디건</a></li>
+                                    <li><a class="dropdown-item" href="#">코트&자켓</a></li>
+                                    <li><a class="dropdown-item" href="#">점퍼</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    TOP 
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">니트</a></li>
+                                    <li><a class="dropdown-item" href="#">긴팔T</a></li>
+                                    <li><a class="dropdown-item" href="#">반팔T</a></li>
+                                    <li><a class="dropdown-item" href="#">맨투맨&후드</a></li>
+                                    <li><a class="dropdown-item" href="#">셔츠&블라우스</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PANTS 
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">청바지</a></li>
+                                    <li><a class="dropdown-item" href="#">슬랙스</a></li>
+                                    <li><a class="dropdown-item" href="#">반바지</a></li>
+                                    <li><a class="dropdown-item" href="#">트레이닝팬츠</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    SKIRT
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">원피스</a></li>
+                                    <li><a class="dropdown-item" href="#">미니SK</a></li>
+                                    <li><a class="dropdown-item" href="#">미디&롱SK</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ACC
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">가방</a></li>
+                                    <li><a class="dropdown-item" href="#">벨트</a></li>
+                                    <li><a class="dropdown-item" href="#">모자</a></li>
+                                    <li><a class="dropdown-item" href="#">악세사리</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
+    <!-- carousel -->
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -151,7 +150,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-12 mb-3">
                 <div class="card" style="width: 100%;">
                     <img src="images/clothes/clothes_4.jpg" class="card-img-top" alt="신상2">
@@ -160,7 +158,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-12 mb-3">
                 <div class="card" style="width: 100%;">
                     <img src="images/clothes/clothes_5.jpg" class="card-img-top" alt="신상3">
@@ -169,7 +166,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-12 mb-3">
                 <div class="card" style="width: 100%;">
                     <img src="images/clothes/clothes_6.jpg" class="card-img-top" alt="신상4">
@@ -178,7 +174,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-12 mb-3">
                 <div class="card" style="width: 100%;">
                     <img src="images/clothes/clothes_7.jpg" class="card-img-top" alt="신상5">
@@ -186,8 +181,7 @@
                         <p class="card-text text-center">#1061 여리여리 무지셔츠</p>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
             <div class="col-md-3 col-sm-12 mb-3">
                 <div class="card" style="width: 100%;">
                     <img src="images/clothes/clothes_8.jpg" class="card-img-top" alt="신상6">
@@ -196,7 +190,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-12 mb-3">
                 <div class="card" style="width: 100%;">
                     <img src="images/clothes/clothes_9.jpg" class="card-img-top" alt="신상7">
@@ -205,7 +198,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-12 mb-3">
                 <div class="card" style="width: 100%;">
                     <img src="images/clothes/clothes_10.jpg" class="card-img-top" alt="신상8">
@@ -214,10 +206,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     
+    <!-- footer -->
     <footer>
         <div class="container">
             <div class="first-line pb-5 pt-5">
