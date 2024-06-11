@@ -13,88 +13,44 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Today's look</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CATEGORY</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">로그인</a>
-                                <a class="nav-link active" aria-current="page" href="#">회원가입</a>
-                                <a class="nav-link active" aria-current="page" href="#">마이페이지</a>                           
-                            </li>                       
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    OUTER
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">가디건</a></li>
-                                    <li><a class="dropdown-item" href="#">코트&자켓</a></li>
-                                    <li><a class="dropdown-item" href="#">점퍼</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    TOP 
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">니트</a></li>
-                                    <li><a class="dropdown-item" href="#">긴팔T</a></li>
-                                    <li><a class="dropdown-item" href="#">반팔T</a></li>
-                                    <li><a class="dropdown-item" href="#">맨투맨&후드</a></li>
-                                    <li><a class="dropdown-item" href="#">셔츠&블라우스</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    PANTS 
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">청바지</a></li>
-                                    <li><a class="dropdown-item" href="#">슬랙스</a></li>
-                                    <li><a class="dropdown-item" href="#">반바지</a></li>
-                                    <li><a class="dropdown-item" href="#">트레이닝팬츠</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    SKIRT
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">원피스</a></li>
-                                    <li><a class="dropdown-item" href="#">미니SK</a></li>
-                                    <li><a class="dropdown-item" href="#">미디&롱SK</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    ACC
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">가방</a></li>
-                                    <li><a class="dropdown-item" href="#">벨트</a></li>
-                                    <li><a class="dropdown-item" href="#">모자</a></li>
-                                    <li><a class="dropdown-item" href="#">악세사리</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Today's look</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">OUTER</a></li>
+                    <li><a class="dropdown-item" href="#">TOP</a></li>
+                    <li><a class="dropdown-item" href="#">PANTS</a></li>
+                    <li><a class="dropdown-item" href="#">SKIRT</a></li>
+                    <li><a class="dropdown-item" href="#">ACC</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#best">BEST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#login">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#signup">SIGNUP</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
             </div>
+          </div>
         </nav>
-    </header>
+      </header>      
 
     <!-- carousel -->
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -122,7 +78,7 @@
             </div>
         </div>
     </div>
-
+    
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
