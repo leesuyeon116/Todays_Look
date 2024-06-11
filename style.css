@@ -47,19 +47,8 @@ footer {
     color: #FBF3D5;
 }
 
-@media screen and (max-width: 48rem) {
-    .first-line {
-        text-align: center;
-    }
-
-    .second-line {
-        padding: 0 2rem;
-    }
-    
-    .flag {
-        display: none;
-    }
-    
+.white-text {
+    color: white;
 }
 
 .col {
@@ -68,4 +57,24 @@ footer {
 
 .flag-img {
     margin: 0 0.5rem;
+}
+
+/* 미디어 쿼리 */
+@media screen and (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .first-line {
+        text-align: center;
+    }
+    .second-line {
+        padding: 0 2rem;
+    }   
+    .flag {
+        display: none;
+    }    
 }
