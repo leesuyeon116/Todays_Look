@@ -28,6 +28,37 @@ nav {
     transition: 0.5s ease-in-out;
 }
 
+.price-box {
+    margin-top: 10px;
+    align-items: baseline; 
+    margin-top: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray; 
+    margin-right: 7px; 
+}
+
+.discount {
+    display: flex; 
+    align-items: baseline; 
+}
+
+.discount-rate {
+    color: red; 
+    font-weight: bold; 
+}
+
+.discount-price {
+    color: black; 
+    font-weight: bold; 
+    margin-left: 5px; 
+}
+
+
+
+/* footer */
 footer {
     background-color: #BBC3A4;
     font-size: 13px;
@@ -58,6 +89,9 @@ footer {
 .flag-img {
     margin: 0 0.5rem;
 }
+
+
+
 
 /* 카드 두 개씩 보이게 */
 @media screen and (max-width: 768px) {
