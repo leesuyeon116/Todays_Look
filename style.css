@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: "Gowun Dodum", sans-serif;
+}
+
 nav {
     padding: 2rem;
     position:fixed;
@@ -23,6 +28,7 @@ nav {
     border-color: #B3A398;
 }
 
+/* 카드 부분 */
 .card:hover {
     transform: scale(1.02);
     transition: 0.5s ease-in-out;
@@ -56,8 +62,6 @@ nav {
     margin-left: 5px; 
 }
 
-
-
 /* footer */
 footer {
     background-color: #BBC3A4;
@@ -89,9 +93,6 @@ footer {
 .flag-img {
     margin: 0 0.5rem;
 }
-
-
-
 
 /* 카드 두 개씩 보이게 */
 @media screen and (max-width: 768px) {
