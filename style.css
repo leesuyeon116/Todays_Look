@@ -7,7 +7,7 @@ body {
 }
 
 section {
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 header {
@@ -42,16 +42,17 @@ nav.navbar {
     border-color: #B3A398;
 }
 
-.new-title {
+.item-title {
     font-weight: 600;
     font-family: "IBM Plex Sans KR", sans-serif;
 }
 
-.new-subtitle {
+.item-description {
     color: gray;
     font-family: "IBM Plex Sans KR", sans-serif;
 }
 
+/* 신상 아이템 */
 .card-text {
     color: black;
 }
@@ -88,6 +89,13 @@ nav.navbar {
     font-weight: bold; 
     margin-left: 5px; 
 }
+
+/* made상품 */
+.made-price {
+    color: black; 
+    font-weight: bold; 
+}
+
 
 /* footer */
 footer {
