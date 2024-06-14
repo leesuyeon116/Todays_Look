@@ -7,7 +7,7 @@ body {
 }
 
 section {
-    margin-top: 150px;
+    margin-top: 60px;
 }
 
 header {
@@ -42,7 +42,20 @@ nav.navbar {
     border-color: #B3A398;
 }
 
-/* 카드 부분 */
+.new-title {
+    font-weight: 600;
+    font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+.new-subtitle {
+    color: gray;
+    font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+.card-text {
+    color: black;
+}
+
 .card:hover {
     transform: scale(1.02);
     transition: 0.5s ease-in-out;
