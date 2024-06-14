@@ -1,19 +1,33 @@
 body {
-    margin: 0;
+    color: #333;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 1.4;
     font-family: "Gowun Dodum", sans-serif;
 }
 
-nav {
-    padding: 2rem;
-    position:fixed;
+section {
+    margin-top: 150px;
 }
 
-.first-img {
-    width: 100vw;
+header {
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 8;
+    background-color: white !important;
+}
+
+nav.navbar {
+    background-color: white !important;
 }
 
 .navbar-toggler {
     color: #BBC3A4;
+}
+
+.dropdown-item:hover {
+    color: #B3A398;
 }
 
 .btn-outline-success {
