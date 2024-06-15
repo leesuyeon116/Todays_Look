@@ -57,7 +57,7 @@ nav.navbar {
     color: black;
 }
 
-.card:hover {
+.new-items .card:hover {
     transform: scale(1.02);
     transition: 0.5s ease-in-out;
 }
@@ -91,11 +91,35 @@ nav.navbar {
 }
 
 /* made상품 */
+/* 배경 구분 
+.made-section {
+    background-color: peru; 
+    margin: 0;
+    padding: 20px 0; 
+}
+*/
+
+.made-card {
+    width: 100%; 
+    max-width: 230px; 
+    height: 270px;
+    margin: 0 auto; 
+}
+
 .made-price {
     color: black; 
     font-weight: bold; 
 }
 
+.made-gif {
+    text-align: left;
+}
+
+.made-gif img {
+    max-width: 25%; 
+    height: auto;
+    display: inline-block;
+}
 
 /* footer */
 footer {
