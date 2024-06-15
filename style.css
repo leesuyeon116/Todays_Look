@@ -7,7 +7,7 @@ body {
 }
 
 section {
-    margin-top: 80px;
+    margin-top: 65px;
 }
 
 header {
@@ -99,12 +99,14 @@ nav.navbar {
 }
 */
 
+/*
 .made-card {
     width: 100%; 
     max-width: 230px; 
     height: 270px;
     margin: 0 auto; 
 }
+*/ 
 
 .made-price {
     color: black; 
@@ -124,7 +126,8 @@ nav.navbar {
 /* footer */
 footer {
     background-color: #BBC3A4;
-    font-size: 13px;
+    font-size: 16px;
+    margin-top: 80px; 
 }
 
 .first-line {
@@ -154,7 +157,7 @@ footer {
 }
 
 /* 카드 두 개씩 보이게 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .col-md-3 {
         flex: 0 0 50%;
         max-width: 50%;
@@ -162,7 +165,7 @@ footer {
 }
 
 /* 카드 한 개씩 보이게 */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .col-md-3 {
         flex: 0 0 100%;
         max-width: 100%;
