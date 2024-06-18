@@ -31,15 +31,15 @@ nav.navbar {
 }
 
 .btn-outline-success {
-    background-color: #BBC3A4;
-    color: #FBF3D5;
-    border-color: #BBC3A4;
+    background-color: #BBC3A4 !important;
+    color: #FBF3D5 !important;
+    border-color: #BBC3A4 !important;
 }
 
 .btn-outline-success:hover {
-    background-color: #B3A398;
-    color: white;
-    border-color: #B3A398;
+    background-color: #B3A398 !important;
+    color: white !important;
+    border-color: #B3A398 !important;
 }
 
 .item-title {
@@ -52,14 +52,15 @@ nav.navbar {
     font-family: "IBM Plex Sans KR", sans-serif;
 }
 
+.new-items .card:hover, .made-items .card:hover {
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;
+}
+
+
 /* 신상 아이템 */
 .card-text {
     color: black;
-}
-
-.new-items .card:hover {
-    transform: scale(1.02);
-    transition: 0.5s ease-in-out;
 }
 
 .price-box {
@@ -99,15 +100,6 @@ nav.navbar {
 }
 */
 
-/*
-.made-card {
-    width: 100%; 
-    max-width: 230px; 
-    height: 270px;
-    margin: 0 auto; 
-}
-*/ 
-
 .made-price {
     color: black; 
     font-weight: bold; 
@@ -123,19 +115,6 @@ nav.navbar {
     display: inline-block;
 }
 
-
-/* 휴가룩 */
-.vacation-look .image-container {
-    overflow: hidden;
-}
-
-.vacation-look .image-container img {
-    transition: transform 0.3s ease;
-}
-
-.vacation-look .image-container img:hover {
-    transform: scale(1.1);
-}
 
 /* footer */
 footer {
